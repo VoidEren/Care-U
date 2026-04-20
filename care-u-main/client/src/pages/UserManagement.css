@@ -1,0 +1,107 @@
+/* UserManagement.css */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro con transparencia */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centrar el modal */
+  z-index: 1000; /* Para asegurarnos de que el modal esté encima */
+}
+
+.modal-content {
+  background-color: #34495e; /* Fondo oscuro */
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%; /* Ajustar el tamaño del modal */
+  max-width: 400px; /* Limitar el tamaño máximo */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.modal-content h3 {
+  margin-bottom: 20px;
+}
+
+/* Estilos para los campos del formulario */
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #2c3e50; /* Fondo oscuro para los inputs */
+  color: white; /* Texto blanco */
+}
+
+/* Estilos para los botones */
+button[type="button"] {
+  padding: 8px 16px;
+  margin-top: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button[type="button"]:first-of-type {
+  background-color: #27ae60; /* Verde para Aceptar */
+}
+
+button[type="button"]:first-of-type:hover {
+  background-color: #2ecc71; /* Verde más claro en hover */
+}
+
+button[type="button"]:last-of-type {
+  background-color: #e74c3c; /* Rojo para Cancelar */
+}
+
+button[type="button"]:last-of-type:hover {
+  background-color: #c0392b; /* Rojo más oscuro en hover */
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #006837; /* Fondo verde para encabezados */
+  color: white;
+}
+
+td {
+  background-color: #34495e;
+  color: white;
+}
+
+button {
+  background-color: red;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #c0392b; /* Color más oscuro en hover */
+}
+
+/* Estilo para el mensaje de confirmación */
+.message {
+  background-color: #27ae60; /* Verde para éxito */
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 4px;
+  text-align: center;
+}
